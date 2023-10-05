@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 
 const Todo = () => {
+    let [num,setNum]=useState(100);
     let [input,setInput]=useState();
     let [todolist,setTodo]=useState([
         {
@@ -57,6 +58,14 @@ const Todo = () => {
                 })
             }
         </ul>
+        <div>
+            <h1>{num}</h1>
+            <input type='text' onChange={(e)=>{
+                let temp = e.target.value;
+                setNum(temp)
+                }} />
+            <button onClick={()=>{setNum(200)}}>Click</button>
+        </div>
     </div>
   )
 }

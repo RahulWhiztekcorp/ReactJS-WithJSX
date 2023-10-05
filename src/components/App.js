@@ -4,6 +4,8 @@
  import React, { useState } from 'react'
  //import Product from './Product';
  import Todo from './Todo';
+ import DOMEX from './DOMEX';
+import Calculator from './Calculator/Calculator';
 
 // export default function App(props) {
 //     let [counter,updateCounter] =  useState(0);
@@ -295,7 +297,9 @@ function App(){
             }}>Change</button> */}
     {/* <Product id={prod.id} name={prod.name} aprice={prod.aprice} pprice={prod.pprice} /> */}
     {/* <Product  {...prod} /> */}
-    <Todo/>
+    {/* <Todo/> */}
+    {/* <Calculator/> */}
+    <DOMEX/>
 	</>)
 }
 export default App;

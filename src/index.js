@@ -4,6 +4,8 @@ import App from './components/App'
 //import Count from './components/Count'
 import 'bootstrap/dist/css/bootstrap.css';
 import '../src/index.css'
+import Calculator from "./components/Calculator/Calculator";
+import DOMEX from './components/DOMEX';
 
 // below import at the declaration of the person;
 // import {person} from './components/App'
@@ -48,6 +50,7 @@ root.render(
     <button>Share</button>
     <button>Subscribe</button>
  </App>
+
  {/* <Count/> */}
  </>
 );
